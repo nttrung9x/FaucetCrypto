@@ -290,10 +290,11 @@ def DoShortlink():
                             browser.get('https://faucetcrypto.com/task/shortlink/short-fc')
                         elif 'https://faucetcrypto.com/task/shortlink/short-fg' in browser.page_source:
                             browser.get('https://faucetcrypto.com/task/shortlink/short-fg')
+                        else:
+                            raise Exception("No Shortlink to click!")
                         time.sleep(1)
                         break
-                    except Exception as ex:
-                        print(ex)
+                    except:
                         delay_time = 3600
                         raise Exception("No Shortlink to click!")
                 time_start = time.time()
@@ -484,7 +485,7 @@ try:
     threads.append(threading.Thread(target=ClaimFaucet, args=()))
     threads.append(threading.Thread(target=DoPtcAds, args=()))
     threads.append(threading.Thread(target=DoShortlink, args=()))
-    threads.append(threading.Thread(target=DoOfferwalls_AsiaMag, args=()))
+    # threads.append(threading.Thread(target=DoOfferwalls_AsiaMag, args=()))
     for thread in threads:
         thread.start()
     for thread in threads:
