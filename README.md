@@ -94,8 +94,8 @@ https://www.youtube.com/watch?v=0B6Jy9-OZ2M
 
 Email: autoalmosteverything.2021@gmail.com
 
-Github: https://github.com/srcAAE?tab=repositories
-
 Youtube: https://www.youtube.com/channel/UC4cNnZIrjAC8Q4mcnhKqPEQ
 
-Facebook: https://www.facebook.com/loveAAEmuch
+Github: https://github.com/autoalmosteverything?tab=repositories
+
+Facebook: https://www.facebook.com/autoalmosteverything
